@@ -1,0 +1,5 @@
+wget https://github.com/openshift/origin/releases/download/v1.5.1/openshift-origin-client-tools-v1.5.1-7b451fc-linux-64bit.tar.gz
+tar –xvf openshift-origin-client-tools-v1.5.1-7b451fc-linux-64bit.tar.gz
+cd openshift-origin-client-tools-v1.5.1-7b451fc-linux-64bit
+mv oc /var/jenkins_home/oc
+chmod -R 777 /var/jenkins_home/oc
