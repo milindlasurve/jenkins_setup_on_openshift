@@ -3,3 +3,5 @@ tar –xvf openshift-origin-client-tools-v1.5.1-7b451fc-linux-64bit.tar.gz
 cd openshift-origin-client-tools-v1.5.1-7b451fc-linux-64bit
 mv oc /var/jenkins_home/oc
 chmod -R 777 /var/jenkins_home/oc
+
+sshpass -p 'BYcd9kgH' scp root@52.117.37.99:/root/apic .
